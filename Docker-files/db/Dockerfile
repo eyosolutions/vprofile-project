@@ -1,6 +1,6 @@
-FROM mysql:8.0.33
+FROM mysql:latest
 LABEL "Project"="Vprofile"
-LABEL "Author"="Imran"
+LABEL "Author"="eyosolutions"
 
 ENV MYSQL_ROOT_PASSWORD="vprodbpass"
 ENV MYSQL_DATABASE="accounts"
